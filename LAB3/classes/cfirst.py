@@ -2,6 +2,6 @@ class IOtput:
     def __init__(self ):
         self.str = ""
     def getString(self):
-        self.string = input()
+        self.str = input()
     def printString(self):
         print(self.str.upper())
