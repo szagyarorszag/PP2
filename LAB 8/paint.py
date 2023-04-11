@@ -92,7 +92,7 @@ while running:
     # Draw the brush/eraser size indicator
     if tool == "brush" or tool == "eraser":
         size_text = font.render("Size: " + str(brush_size), True, BLACK)
-        screen.blit(size_text, (10, 70))
+        screen.blit(size_text, (10, 70))    
 
     # Draw the color selection buttons
     pygame.draw.rect(screen, RED, pygame.Rect(screen_width - 80, 10, 30, 30))
